@@ -5,7 +5,7 @@ Product.create(title: 'Apple Iphone5s', category: 'smartphones', description: %{
 Так же 2 новыйх процессора A7 64битный и графический M7.
 Улучшенная камера и теперь поддержка всех LTE сетей. Новая операционная система iOS 7.0</p>}, image_url: 'iphone5s.jpg', amount: 47, price: 1010)
 
-Product.create(title: 'Apple Iphone5s', category: 'smartphones', description: %{<p>Под внешним дизайном iPhone 5S скрывается
+Product.create(title: 'Apple Iphone5s Black', category: 'smartphones', description: %{<p>Под внешним дизайном iPhone 5S скрывается
 много новых возможностей. Улучшилось качество сенсора, стекло стало на много крепче и более стойкое к следам отпечатков пальцев.
 Так же 2 новыйх процессора A7 64битный и графический M7.
 Улучшенная камера и теперь поддержка всех LTE сетей. Новая операционная система iOS 7.0</p>},image_url: 'iphone5sblack.jpg', amount: 50, price: 800)
