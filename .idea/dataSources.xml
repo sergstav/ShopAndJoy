@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2490205128">
+    <data-source source="LOCAL" name="Rails ShopAndJoy: development" uuid="c553189c-55f0-4e00-af86-81d6e8498a8c">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ShopAndJoy_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc4dfd9df9adf99df9adf98df9adf93</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ShopAndJoy: test" uuid="02498695-5e34-49e7-a559-cc341b61b76f">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ShopAndJoy_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc4dfd9df9adf99df9adf98df9adf93</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails ShopAndJoy: production" uuid="a3cbe058-8ddd-4c9f-9a39-61a92526b1a5">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/ShopOnline_production</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfc4dfd9df9adf99df9adf98df9adf93</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
