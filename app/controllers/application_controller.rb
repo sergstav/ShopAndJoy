@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery
 
+  before_filter :authorize
+
   private
 
   def current_cart
@@ -11,6 +13,14 @@ class ApplicationController < ActionController::Base
     cart = Cart.create
     session[:cart_id] = cart.id
     cart
+  end
+
+  protected
+
+  def authorize
+    unless User.find_by_id(session[:user_id])
+      redirect_to login_url, notice: 'Please authenticate'
+    end
   end
 
 end
