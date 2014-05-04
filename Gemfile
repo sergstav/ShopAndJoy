@@ -19,7 +19,9 @@ gem 'foundation-rails'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.2'
 
-gem 'will_paginate'
+gem "will_paginate", "~> 3.0.4"
+
+gem 'tire'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', "~> 2.3.0"

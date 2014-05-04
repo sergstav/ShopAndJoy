@@ -1,4 +1,8 @@
 class Product < ActiveRecord::Base
+
+  include Tire::Model::Search
+  include Tire::Model::Callbacks
+
   validates :title, :category, :description, :image_url, presence: true
 
 
