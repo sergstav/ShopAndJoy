@@ -21,3 +21,13 @@ Product.create(title: 'Apple Macbook Air', category: 'notebooks', description: %
 высокоскоростной порт
 Thunderbolt, 128 ГБ Flash-накопитель.
  Новый 11-дюймовый MacBook Air - пиковая производительность в портативном исполнении</p>}, image_url: 'macbook_air.jpg', amount: 40, price: 1800)
+
+Product.create(title: 'Apple Mac Mini', category: 'computers', description: %{<p>Новый Mac mini – изящный и компактный настольный компьютер в стильном
+алюминиевом корпусе.
+Его производительность и способность выполнять самые разнообразные задачи приятно удивит вас!</p>}, image_url: 'mac_mini.jpg',amount: 25, price: 1000)
+
+Product.create(title: 'Apple Ipad Air', category: 'tablets', description: %{<p>В новом Apple iPad Air появился более мощный
+2-ядерный процессор A7 (1.4 ГГц) и 4-ядерная графическая составляющая.
+Он стал на 20% тоньше и на 28% легче, чем предшественник. iPad Air оснащён 64-битным процессором Apple A7 и со-процессором Apple M7.
+По дизайну iPad Air копирует iPad mini, то есть, значительно уменьшен размер рамки по краям. В качестве бонуса — металлические
+кнопки</p>}, image_url: 'ipadAir.jpg', amount: 43, price: 870)

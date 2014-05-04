@@ -1,11 +1,11 @@
-<div class="cart_title">Your Cart</div>
+<div class="cart_title">Ваша корзина</div>
 <table>
   <%= render(cart.line_items) %>
+
   <tr class="total_line">
-    <td colspan="2">Total</td>
-    <td class="total_cell"><%= number_to_currency(cart.total_price) %></td> </tr>
+
 </table>
 
-<%= button_to 'Check out', new_order_path, method: :get, class: 'button' %>
-<%= button_to 'Empty cart', cart, method: :delete,
-               data: {confirm: 'Are you sure you want to empty your cart?'}, class: 'button' %>
+<%= button_to 'К заказу', new_order_path, method: :get, class: 'button' %>
+<%= button_to 'Очистить корзину', cart, method: :delete,
+               data: {confirm: 'Вы уверены что хотите удалить все из вашей корзины?'}, class: 'button' %>

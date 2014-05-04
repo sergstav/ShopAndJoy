@@ -1,25 +1,28 @@
 <!DOCTYPE html> <html>
 <head>
   <title>ShopAndJoy</title>
-  <%= stylesheet_link_tag 'application' %>
-  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_link_tag "application" %>
+  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tag %>
 </head>
 <body class="<%= controller.controller_name %>">
-<div id="banner"></div>
 <div id="columns">
   <div id="side">
-    <div id="cart">
+        <div id="cart">
       <% if @cart %>
           <%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
-              <%= render @cart %> <% end %>
+              <%= render @cart %>
+          <% end %>
       <% end %>
-    </div>
+          </div>
 
-
-    <ul>
-      <li><a href="">Main</a> </li>
-    </ul>
+    <% if session[:user_id] %>
+        <br />
+        <%= link_to 'Orders', orders_path %><br />
+        <%= link_to 'Products', products_path %><br />
+        <br />
+        <%= button_to 'Выйти', logout_path, method: :delete, class: 'button', class: 'button' %>
+    <% end %>
   </div>
 
   <div id="main">

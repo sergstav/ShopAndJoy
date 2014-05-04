@@ -9,10 +9,10 @@
       <h3><%= product.title %></h3>
   <%= sanitize(product.description) %>
       <div class="price_line">
-  Amount: <span class="price"> <%= product.amount %> </span> <br />
-  Price: <span class="price"><%= number_to_currency product.price %>
+  Количество на складе: <span class="price"> <%= product.amount %> </span> <br />
+  Цена: <span class="price"><%= number_to_currency product.price %>
   </span>
-        <%= button_to 'Buy!', line_items_path(product_id: product), class: 'button', remote: true %>
+        <%= button_to 'Купить!', line_items_path(product_id: product), class: 'button', remote: true %>
       </div>
     </div>
 <% end %>

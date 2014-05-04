@@ -1,13 +1,9 @@
 .carts, #side #cart
 {
-  .cart_title
-  {
-    font: 120% bold;
-  }
 
  .item_price, .total_line
  {
-  text-align: right;
+  text-align: left;
 }
   .total_line .total_cell
   {
